@@ -1,0 +1,122 @@
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex {
+    display: flex;
+}
+
+.vertical-fluid {
+    align-self: stretch;
+    width: 100%;
+}
+
+.full-screen {
+    height: 500px;
+    height: 100vh;
+}
+
+.img {
+    min-height: 50vh;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}
+
+.img.chrome {
+    background-attachment: scroll !important;
+}
+
+.img.logo {
+    background: url('/pictures/logo.jpg');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.img.green {
+    background-color: #2C8F44 !important;
+}
+.img.grey {
+    background-color: #424446 !important;
+}
+
+.img.pattern {
+    background: url('/pictures/pattern.svg');
+    background-color: #545454;
+    background-size: initial !important;
+    background-repeat: repeat !important;
+    height: 100vh;
+
+}
+
+.img.kindergarden {
+    background-image: url('/pictures/kindergarden.png') !important;
+    background-color: #424446 !important;
+    min-height: 20vh;
+}
+
+.img.concept {
+    background-image: url('/pictures/concept.png');
+    min-height: 20vh;
+}
+
+.img.contact {
+    background-image: url('/pictures/contact.png');
+    background-color: #424446;
+    min-height: 20vh;
+}
+
+.ui.text.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ui.header {
+    padding-bottom: 40px;
+}
+
+.ui.darker.green.inverted {
+    background: rgb(44, 143, 68) !important;
+}
+
+.header.very.massive {
+    font-size: 4em;
+}
+
+.ui.segment.section.header, .ui.segment.section.header.img {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+    align-self: flex-end;
+    color: white !important;
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+    min-height: initial;
+}
+
+.section.header * {
+    text-align: center;
+}
+
+.inverted.section.header.green, .section.header.green {
+    background-color: #2C8F44 !important;
+}
+.section.header.grey {
+    background-color: #424446;
+    color: #21BA45 !important;
+}
+
+a {
+    color: #21BA45
+}
+
+a:hover {
+    color: #2C8F44;
+}
+
+.ui.button {
+    margin: 10px;
+}
